@@ -8,6 +8,27 @@
   box-sizing: border-box;
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
+  
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(41, 41, 44);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(118, 63, 130);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(38, 105, 118);
 }
 
 .gradient-01 {
@@ -105,3 +126,5 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+

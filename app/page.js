@@ -37,7 +37,7 @@ const Page = () => (
     </div>
     <Footer />
     <a href="#explore">
-        <div className={`flex items-center justify-center w-[60px] h-[60px] rounded-[24px]  glassmorphism z-10`} style={{position:'fixed', bottom:'20px', right:'40px'}}>
+        <div className={`flex items-center justify-center w-[60px] h-[60px] rounded-[24px] glassmorphism z-10`} style={{position:'fixed', bottom:'20px', right:'40px'}}>
           <img
             src="/arrow-up.png"
             alt="go-to-top"
